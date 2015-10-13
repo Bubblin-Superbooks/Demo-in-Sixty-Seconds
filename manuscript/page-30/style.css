@@ -1,1 +1,8 @@
-body{background:rgba(200, 235, 255, 0.99); margin:0 0; overflow:hidden;}
+body{color: white;}
+
+.absolute{
+  position:absolute;
+  width:100vw;
+  height:100vh;
+  top:45%
+}
