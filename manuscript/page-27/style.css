@@ -1,4 +1,12 @@
-body { background: #068; color: #fff; } ol { margin: 0 3vw; padding: 1vw; }
+body {
+  background: #068;
+  color: #fff;
+}
+
+ol {
+  margin: 0 3vw;
+  padding: 1vw;
+}
 
 a {
   color: #ffc;
@@ -15,4 +23,12 @@ a:hover {
 
 a:active {
   padding-top: 2px;
+}
+
+ol {
+  list-style-position: inside;
+  list-style-image: none;
+  font-size: 2.8vw;
+  margin: 0;
+  padding: 1vw 0vw;
 }
