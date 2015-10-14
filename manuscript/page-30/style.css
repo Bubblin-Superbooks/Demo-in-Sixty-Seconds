@@ -1,8 +1,5 @@
-body{color: white;}
-
-.absolute{
-  position:absolute;
-  width:100vw;
-  height:100vh;
-  top:45%
+body {
+  color: white;
+  background: -webkit-radial-gradient(center, ellipse, #2aa9e0 0%, #01070a 100%);
+  background: radial-gradient(ellipse at center, #2aa9e0 0%, #01070a 100%);
 }
