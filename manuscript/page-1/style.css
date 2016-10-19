@@ -1,5 +1,7 @@
 body {
-  background: #4067ae;
+  color: white;
+  background: -webkit-radial-gradient(center, ellipse, #2aa9e0 0%, #01070a 100%);
+  background: radial-gradient(ellipse at center, #2aa9e0 0%, #01070a 100%);
 }
 
 .intro {
@@ -21,7 +23,7 @@ body {
 }
 
 .subline {
-  font-size: 3.2vw;
+  font-size: 2.5vw;
   margin: 20vw auto 0vw;
   width: 80%;
   color: #fff;

@@ -1,29 +1,8 @@
-body {
-  background: #068;
-  color: #fff;
-}
-
 ol {
   margin: 0 3vw;
   padding: 1vw;
 }
 
-a {
-  color: #ffc;
-  outline: 0 none;
-  text-decoration: none;
-  text-rendering: optimizelegibility;
-}
-
-a:focus,
-a:active,
-a:hover {
-  outline: 0 none;
-}
-
-a:active {
-  padding-top: 2px;
-}
 
 ol {
   list-style-position: inside;

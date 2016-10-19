@@ -1,6 +1,11 @@
 {
-  "HTML": "html",
-  "CSS": "css",
-  "JS": "js",
-  "HEAD": "html"
+  "mode": {
+    "HTML": "html",
+    "CSS": "css",
+    "JS": "js",
+    "HEAD": "html"
+  },
+  "name": "Demo in Sixty Seconds",
+  "type": "text",
+  "book_id": 35
 }
