@@ -1,7 +1,7 @@
 body {
   margin: 0 0;
   overflow: hidden;
-  font: 3.2vw/1.2 'EB Garamond', serif;
+  font: 4.2vw/1.2 'EB Garamond', serif;
   color: #444;
   height:100vh;
   width: 100vw;
@@ -39,7 +39,7 @@ body {
 h1, h2, h3 {
   margin: 4vw 0;
   padding: 0;
-  font-family: 'Chewy', sans-serif;
+  font-family: 'Luckiest Guy', sans-serif;
   width: 100%;
   text-align: center;
 }
@@ -86,4 +86,32 @@ a:hover {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+
+blockquote {
+    font-family: 'EB Garamond', serif;
+    margin: 2vh 0;
+    padding: 0;
+    quotes: "\201C""\201D""\2018""\2019";
+    color: #666;
+    font-weight: 100;
+}
+
+blockquote:before {
+    color: #f55;
+    content: open-quote;
+    font-size: 6vw;
+    line-height: 0.1vw;
+    margin-right: -0.1vw;
+    vertical-align: -0.9vw;
+}
+
+blockquote:after {
+    color: #f55;
+    content: close-quote;
+    font-size: 6vw;
+    line-height: 0.4vw;
+    margin-left: 0.5vw;
+    vertical-align: -0.9vw;
 }

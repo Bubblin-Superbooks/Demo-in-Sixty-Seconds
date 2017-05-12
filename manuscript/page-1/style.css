@@ -269,3 +269,5 @@ body {
     transform: rotate(0deg);
   }
 }
+
+.red { color: #f55; }
